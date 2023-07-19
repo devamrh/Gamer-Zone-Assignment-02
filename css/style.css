@@ -344,5 +344,36 @@ footer{
     background: #0B0223;
     width: 100%;
     height: 636px;
+    flex-shrink: 0;
 }
 
+.footer-title{
+    display: flex;
+    margin-top: 100px;
+}
+
+
+
+
+.footer-title>h1{
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.footer-title>h1>span{
+
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
