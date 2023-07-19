@@ -289,5 +289,60 @@ main{
 
 
 
+/* GAME TYPE CONTAINER */
 
+.gametype-container{
+    margin: 225px 50px;
+}
+.gametype-container>.gamedivisions{
+    width: 100%;
+    /* flex-shrink: 0; */
+}
+
+.gamedivisions{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: baseline;
+
+}   
+
+
+
+
+.gametypes{
+    margin: 10px 10px;
+    color: #0B0223;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    align-items: center;
+    
+
+}
+
+.gametypes:hover{
+        border: 2px solid #FF42A5;
+        transition: 0.2s;
+}
+
+.gametypes>h6{
+    margin: 0 10px;
+    display: inline;
+}
+
+
+
+
+/* FOOTER */
+
+footer{
+    background: #0B0223;
+    width: 100%;
+    height: 636px;
+}
 
