@@ -350,6 +350,10 @@ footer{
 .footer-title{
     display: flex;
     margin-top: 100px;
+    place-content: center;
+    padding-top: 120px;
+    margin-bottom: 50px;
+
 }
 
 
@@ -373,7 +377,53 @@ footer{
 
 
 .footer-container{
-    display: flex;
     align-items: center;
     justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-choices{
+    display: flex;
+    place-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+
+.term-choices{
+    place-content: center;
+    margin-top: 100px;
+    gap: 45px;
+    display: flex;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.social-icons{
+    place-content: center;
+    margin-top: 100px;
+}
+
+.social-icons>img{
+    margin: 0 20px;
+}
+
+.footer-caption{
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
 }
