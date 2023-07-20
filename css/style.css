@@ -446,68 +446,53 @@ footer{
 
 /* Media Query */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
     
-    .navbar-title {
-      font-size: 24px;
+    
+
+    *{
+        padding-left: 15px;
+    }
+    nav{
+        flex-direction: column;
+        margin: 35px 0;
+        width: 576px;
+        height: 300px;
+    }
+
+    .navbar-right>ul{
+        margin: 7px auto;
+        flex-direction: column;
+    }
+
+    .navbar-right{
+        flex-direction: column;
     }
   
-    .featured-videos-container {
-      margin: 50px 0;
+
+    .banner{
+        width: 576px;
+    }
+
+    .banner-container{
+        flex-direction: column-reverse;
+
+        margin-bottom: 80px;
+    }
+
+    .banner-right>img{
+        width: 100%;
+    }
+
+    .banner-left{
+        margin-top: 100px;
+    }
+    
+
+    main{
+        margin-top: 200px;
     }
   
-    .banner-left>h2 {
-      font-size: 32px;
-    }
-  
-    .banner-left>h1 {
-      font-size: 64px;
-    }
-  
-    .btn-primary {
-      font-size: 18px;
-    }
-  
-    .featured-videos-title {
-      font-size: 36px;
-    }
-  
-    .featured-videos-title>span {
-      font-size: 36px;
-    }
-  
-    .featured-videos {
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    }
-  
-    .feature-title {
-      font-size: 36px;
-    }
-  
-    .featured-content>p {
-      font-size: 18px;
-    }
-  
-    .gametypes {
-      width: 100%;
-    }
-  
-    .gametypes>h6 {
-      font-size: 16px;
-    }
-  
-    .footer-title>h1 {
-      font-size: 28px;
-    }
-  
-    .footer-choices {
-      gap: 30px;
-      flex-wrap: wrap;
-    }
-  
-    .term-choices {
-      gap: 30px;
-    }
   }
   
   
