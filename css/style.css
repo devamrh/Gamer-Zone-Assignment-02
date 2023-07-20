@@ -501,6 +501,32 @@ footer{
     }
 
 
+    .feature-container{
+        flex-direction: column-reverse;
+    }
+
+    .feature-left{
+        margin: 40px 0;
+    }
+
+    .main-img-01{
+        top: 100%;
+        
+
+    }
+
+    .main-img-02{
+        bottom: 50%;
+    }
+
+
+    .gametypes{
+    flex: 0 0 calc(33.33% - 10px);
+    }
+    footer{
+        width: 576px;
+    }
+
   
   }
   
