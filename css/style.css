@@ -156,6 +156,10 @@ main{
 
 /* FUNNY VIDEOS SECTION */
 
+.featured-content:hover{
+    background-image: url(images/play-button.svg);
+}
+
 .featured-videos-container{
     margin: 125px 0;
     width: 100%;
