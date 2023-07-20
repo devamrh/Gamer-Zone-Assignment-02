@@ -322,7 +322,8 @@ main{
 
 
 .gametypes{
-    margin: 10px 10px;
+    margin-top: 15px;
+    margin-left: 10px;
     color: #0B0223;
     font-size: 18px;
     font-weight: 600;
