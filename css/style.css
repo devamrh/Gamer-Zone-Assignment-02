@@ -313,10 +313,9 @@ main{
 }
 
 .gamedivisions{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    align-items: baseline;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }   
 
 
@@ -334,7 +333,8 @@ main{
     border-radius: 50px;
     background: #FFF;
     align-items: center;
-    
+    /*  */
+    flex: 0 0 calc(20% - 20px);
 
 }
 
