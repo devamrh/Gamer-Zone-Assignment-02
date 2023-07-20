@@ -451,17 +451,19 @@ footer{
     
 
     *{
-        padding-left: 15px;
+        padding-left: 18px;
     }
     nav{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin: 35px 0;
         width: 576px;
         height: 300px;
     }
 
     .navbar-right>ul{
-        margin: 7px auto;
+        margin: 20px auto;
         flex-direction: column;
     }
 
@@ -485,13 +487,20 @@ footer{
     }
 
     .banner-left{
-        margin-top: 100px;
+        margin-top: 80px;
+        padding-top: 50px;
     }
     
 
     main{
-        margin-top: 200px;
+        margin-top: 400px;
     }
+
+    .featured-videos{
+        flex-direction: column;
+    }
+
+
   
   }
   
